@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: "Arial";
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+
+nav {
+	background-color: #2D2D2D;
+	font: bold 13px/25px "Arial";
+	color: #ffffff;
+	word-spacing: 16px;
+	width: 100%;
+	padding-top: 3px; 
+	
+}
+
+
+nav a:link {
+	color: #bbbbbb;
+}
+
+nav a:active {
+	color: #ffffff;
+}
+
+nav a:hover {
+	color: #ffffff;
+}
+
+ul {
+	white-space:nowrap;
+}
+
+li {
+	display: inline;
+}
+
+li:first-child {
+	padding-left: 16px;
+}
+
+.smaller {
+	font: bold 8px/25px Arial;
+	/*font-size: 60%;*/
+	padding-left: 5px;
+}
+
+
+.signinbtn {
+	display: block;
+	width: 73px;
+	height: 29px;
+	float: right;
+	background-color: #D74634;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 27px;
+	text-align: center;
+	font: bold 11px/7px Arial;
+	color: #ffffff;
+}
+
+
+#logo {
+	width: 275px;
+	margin: auto;
+	padding-top: 113px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+
+
+img {
+     max-width: 100%;
+}
+
+input {
+	width: 566px;
+	height: 23px;
+	display: block;
+	margin: auto;
+}
+
+#searchbtnrow{
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+.searchbtn {
+	height: 30px;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+	padding: 0px 8px;
+	background-color: #f5f5f5;
+	font: bold 11px/16px Arial;
+	color: #4d4d4d;
+	margin: 15px 6px;
+}
+
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border-top: 1px solid #e2e2e2;
+	padding: 3px 2px 9px 0px;
+	text-align: right;
+}
+
+footer ul {
+
+}
+
+footer li{
+	padding: 8px;
+}
+
+footer a {
+	text-decoration: none;
+	font: normal 13px Arial;
+	color: #666666;
+}
+footer a:hover {
+	text-decoration: underline;
+}
